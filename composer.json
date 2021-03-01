@@ -1,0 +1,24 @@
+{
+    "name": "surest/sendcloud-php-sdk",
+    "description": "--",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "surest",
+            "email": "chenf@surest.cn"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Surest\\SendcloudPhp\\": "lib/"
+        },
+        "files": [
+            "src/helper.php"
+        ]
+    },
+    "minimum-stability": "dev",
+    "require": {},
+    "extra": {
+    }
+}
